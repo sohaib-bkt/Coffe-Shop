@@ -39,8 +39,8 @@ foreach ($_SESSION['panier'][$id_per] as $id => $article) {
 
 $checkout_session = \Stripe\Checkout\Session::create([
     "mode" => "payment",
-    "success_url" => "http://localhost/projects/project4/home/success.php",
-    "cancel_url" => "http://localhost/projects/project4/home/products.php",
+    "success_url" => "http://localhost/projects/Coffee-Shop/home/success.php",
+    "cancel_url" => "http://localhost/projects/Coffee-Shop/home/products.php",
     "payment_method_types" => ["card"],
      // Add other supported payment methods if needed
     "line_items" => array($line_items)

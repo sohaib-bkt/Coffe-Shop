@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('../../fpdf.php');
+require('../../fpdf/fpdf.php');
 
 if(!isset($_SESSION['valid'])){
     header("Location: ../index.php");
