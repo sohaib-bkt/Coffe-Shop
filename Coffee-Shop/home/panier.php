@@ -150,10 +150,7 @@ if (!empty($_SESSION['panier'][$id_per])) {?>
     
     
       </tfoot>
-    </table> 
-    
-    
-            
+    </table>        
         <?php }
         else{?>
 
@@ -162,8 +159,6 @@ if (!empty($_SESSION['panier'][$id_per])) {?>
             Commençez vos achats <a class="btn btn-danger btn-sm" style="  letter-spacing: 1px;font-size: 18px " href="products.php">Acheter des
                 produits</a>
             </div>
-
-
        <?php }?>
         
 </div>
@@ -171,10 +166,3 @@ if (!empty($_SESSION['panier'][$id_per])) {?>
 
 </body>
 </html>
-
-
-
-
-
-
-
