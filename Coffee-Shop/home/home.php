@@ -1,12 +1,12 @@
 <?php 
-   session_start();
-   include("../admin/pdo.php");
-   include("../php/config.php");
-   if(!isset($_SESSION['valid'])){
+session_start();
+require_once("../admin/pdo.php");
+require_once("../php/config.php");
+
+if (!isset($_SESSION['valid'])) {
     header("Location: ../index.php");
-   }
-  
-   
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
