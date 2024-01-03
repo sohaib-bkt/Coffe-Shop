@@ -32,11 +32,6 @@ foreach ($_SESSION['panier'][$id_per] as $id => $article) {
     ];
 }
 
-
-
-// You may need to convert your currency to the appropriate currency code for Stripe
-
-
 $checkout_session = \Stripe\Checkout\Session::create([
     "mode" => "payment",
     "success_url" => "http://localhost/projects/Coffee-Shop/home/success.php",

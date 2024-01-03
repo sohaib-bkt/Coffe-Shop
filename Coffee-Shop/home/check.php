@@ -8,8 +8,4 @@ if (isset($_SESSION['panier'][$id_per])) {
     $count =0;
 
 }
-
-
-
-
 ?>

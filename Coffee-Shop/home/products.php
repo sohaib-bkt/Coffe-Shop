@@ -37,12 +37,12 @@ if (isset($_GET['search'])) {
             margin: 20px 0;
         }
         #searchInput {
-        padding-left: 30px; /* Adjust the left padding to create space for the icon */
-        background-image: url('../upload/produit/search-solid.svg'); /* Replace with the path to your icon */
+        padding-left: 30px; 
+        background-image: url('../upload/produit/search-solid.svg'); 
         background-repeat: no-repeat;
         color: #3C2A21 ;
-        background-position: 5px center; /* Adjust the position of the icon */
-        background-size: 20px; /* Adjust the size of the icon */
+        background-position: 5px center; 
+        background-size: 20px; 
         width: 100%; 
         
 
@@ -57,7 +57,6 @@ if (isset($_GET['search'])) {
 
         body {
             background-image: url(images/6092895.jpg);
-            /* background-color: #764D29; */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -69,7 +68,7 @@ if (isset($_GET['search'])) {
 
         .box-container .box {
             
-            vertical-align: top; /* Align the boxes to the top */
+            vertical-align: top; 
             
             max-width: 400px;
         }
@@ -79,7 +78,7 @@ if (isset($_GET['search'])) {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 200px; /* Set a fixed height for the image container */
+        height: 200px; 
     }
 
     .box-container .box img {
@@ -106,7 +105,7 @@ if (isset($_GET['search'])) {
 
         #liveSearchResults .box {
             
-            vertical-align: top; /* Align the boxes to the top */
+            vertical-align: top; 
         }
 
         #liveSearchResults .box:hover {
